@@ -1,0 +1,47 @@
+.movie-details-container {
+  background-color: #252525;
+  color: white;
+}
+.movie-details-loading {
+  display: flex;
+  background-color: #252525;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+}
+
+.movie-details-loading p {
+  font-size: 27px;
+}
+.movie-details {
+  display: flex;
+  padding: 50px;
+}
+.movie-details img {
+  height: 500px;
+  margin-right: 20px;
+}
+.info h2 {
+  color: red;
+  padding-bottom: 10px;
+}
+.info p {
+  padding-bottom: 10px;
+}
+.movie-details-container h3 {
+  color: red;
+  font-size: 40px;
+  padding-left: 50px;
+}
+.cast-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  list-style: none;
+}
+.cast-list li {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,19 @@
+.not-found {
+  background-color: #252525;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 90vh;
+}
+.not-found button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}

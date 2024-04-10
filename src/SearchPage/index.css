@@ -1,0 +1,28 @@
+.search-container {
+  background-color: #252525;
+  color: white;
+}
+.search-container h1 {
+  padding: 20px;
+}
+.search-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: 100vh;
+}
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.search-result-item {
+  margin: 15px;
+}
+.search-result-item div img {
+  height: 500px;
+}
+.search-result-item h3 {
+  padding: 10px;
+}
