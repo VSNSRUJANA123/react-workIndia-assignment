@@ -7,7 +7,7 @@ import UpComing from "./components/UpComing";
 import Navbar from "./components/Navbar";
 import MovieDetails from "./components/MovieDetails";
 import NotFound from "./components/NotFound";
-import SearchPage from "./SearchPage";
+import SearchPage from "./components/SearchPage";
 const App = () => {
   return (
     <BrowserRouter>

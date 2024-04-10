@@ -11,12 +11,12 @@
 .nav-list-container {
   display: flex;
 }
-.nav-list-container ul {
+.ul-container {
   display: flex;
   align-items: center;
   list-style: none;
 }
-.nav-list-container li {
+.ul-container li {
   margin-right: 10px;
 }
 .link-style {
@@ -45,4 +45,37 @@
   padding: 10px;
   color: red;
   border: none;
+}
+.menu-small {
+  display: none;
+}
+@media (max-width: 578px) {
+  .menu-small {
+    display: block;
+    cursor: pointer;
+  }
+  .nav-list-container {
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #282c34;
+    height: 100vh;
+    right: 0;
+    top: 10%;
+  }
+
+  .ul-container {
+    margin-top: 30px;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+  .ul-container li {
+    padding: 20px;
+  }
+  .active-ul {
+    display: none;
+  }
 }

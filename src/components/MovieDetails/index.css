@@ -22,6 +22,7 @@
 .movie-details img {
   height: 500px;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 .info h2 {
   color: red;
@@ -44,4 +45,10 @@
 .cast-list li {
   margin-right: 20px;
   margin-bottom: 20px;
+}
+@media (max-width: 578px) {
+  .movie-details {
+    display: flex;
+    flex-direction: column;
+  }
 }
