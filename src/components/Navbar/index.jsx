@@ -32,7 +32,9 @@ const Navbar = () => {
       <div className="menu-small" onClick={clickMenu}>
         <IoMdMenu />
       </div>
-      <div className={menu ? "active-ul" : "nav-list-container"}>
+      <div
+        className={menu ? "nav-list-container active-ul" : "nav-list-container"}
+      >
         <ul className=" ul-container">
           <NavLink
             onClick={clickMenu}
