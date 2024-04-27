@@ -26,7 +26,7 @@ This project is a responsive Netflix clone website created with React and CSS, f
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/netflix-clone.git
+   git clone https://github.com/vsnsrujana123/react-workindia-assignment.git
    ```
 
 2. Navigate to the project directory:
